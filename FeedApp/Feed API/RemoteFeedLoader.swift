@@ -17,8 +17,7 @@ public class RemoteFeedLoader {
 
     public init(client: HTTPClient, url: URL) {
         self.client = client
-        self.url = url
-    }
+        self.url = url     }
 
     func load() {
         client.get(from: url)
