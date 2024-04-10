@@ -12,7 +12,7 @@ public protocol HTTPClient {
 }
 
 public class RemoteFeedLoader {
-    private let client: HTTPClient
+    private let client: HTTPClient 
     private let url: URL
 
     public enum Error: Swift.Error {
