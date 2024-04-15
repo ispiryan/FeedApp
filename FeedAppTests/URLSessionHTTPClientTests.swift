@@ -42,7 +42,7 @@ class URLSessionHTTPClientTests: XCTestCase {
         sut.get(from: url) { result in
             switch result {
             case let .failure(receivedError as NSError):
-                XCTAssertEqual(error , receivedError.code )
+                XCTAssertEqual(error.code, receivedError.code )
             default:
                 XCTFail("Expected pizdec!")
             }
