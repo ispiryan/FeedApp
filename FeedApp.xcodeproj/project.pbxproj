@@ -43,6 +43,7 @@
 		97E3BD252BCDB734005D8B4E /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
 		97E3BD272BCE9E76005D8B4E /* XCTCase+MemoryTrackerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTCase+MemoryTrackerHelper.swift"; sourceTree = "<group>"; };
 		97E3BD2A2BCEC69C005D8B4E /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
+		97E3BD2C2BCF0B30005D8B4E /* FeedApp.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = FeedApp.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +68,7 @@
 		973BA9BB2BC5478900013B53 = {
 			isa = PBXGroup;
 			children = (
+				97E3BD2C2BCF0B30005D8B4E /* FeedApp.xctestplan */,
 				973BA9C72BC5478900013B53 /* FeedApp */,
 				973BA9D12BC5478C00013B53 /* FeedAppTests */,
 				973BA9C62BC5478900013B53 /* Products */,
