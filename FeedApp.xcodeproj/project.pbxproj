@@ -16,6 +16,7 @@
 		975945E22BCA777C005F6F16 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975945E12BCA777C005F6F16 /* HTTPClient.swift */; };
 		975945E42BCA77E6005F6F16 /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975945E32BCA77E6005F6F16 /* FeedItemsMapper.swift */; };
 		97E3BD262BCDB734005D8B4E /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E3BD252BCDB734005D8B4E /* URLSessionHTTPClientTests.swift */; };
+		97E3BD292BCE9EC7005D8B4E /* XCTCase+MemoryTrackerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E3BD272BCE9E76005D8B4E /* XCTCase+MemoryTrackerHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		975945E12BCA777C005F6F16 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		975945E32BCA77E6005F6F16 /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
 		97E3BD252BCDB734005D8B4E /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
+		97E3BD272BCE9E76005D8B4E /* XCTCase+MemoryTrackerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTCase+MemoryTrackerHelper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		973BA9D12BC5478C00013B53 /* FeedAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				97E3BD272BCE9E76005D8B4E /* XCTCase+MemoryTrackerHelper.swift */,
 				973BA9D22BC5478C00013B53 /* RemoteFeedLoaderTests.swift */,
 				97E3BD252BCDB734005D8B4E /* URLSessionHTTPClientTests.swift */,
 			);
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97E3BD262BCDB734005D8B4E /* URLSessionHTTPClientTests.swift in Sources */,
+				97E3BD292BCE9EC7005D8B4E /* XCTCase+MemoryTrackerHelper.swift in Sources */,
 				973BA9D32BC5478C00013B53 /* RemoteFeedLoaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
