@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "2C23496B-F89F-4DCB-9B39-09E7B7FBF813",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:FeedApp.xcodeproj",
+        "identifier" : "973BA9CC2BC5478C00013B53",
+        "name" : "FeedAppTests"
+      }
+    }
+  ],
+  "version" : 1
+}
