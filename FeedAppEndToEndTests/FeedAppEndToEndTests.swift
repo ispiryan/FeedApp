@@ -16,7 +16,7 @@ class EssentialFeedAPIEndToEndTests: XCTestCase {
             XCTAssertEqual(items.count, 8, "Expected 8 items in the test account feed")
             XCTAssertEqual(items[0], expectedItem(at: 0))
             XCTAssertEqual(items[1], expectedItem(at: 1))
-            XCTAssertEqual(items[2], expectedItem(at: 3))
+            XCTAssertEqual(items[2], expectedItem(at: 2))
             XCTAssertEqual(items[3], expectedItem(at: 3))
             XCTAssertEqual(items[4], expectedItem(at: 4))
             XCTAssertEqual(items[5], expectedItem(at: 5))
