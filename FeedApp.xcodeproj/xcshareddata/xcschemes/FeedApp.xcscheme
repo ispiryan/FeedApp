@@ -30,7 +30,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
          <TestPlanReference
-            reference = "container:FeedApp.xctestplan"
+            reference = "container:Test Plans/FeedApp.xctestplan"
             default = "YES">
          </TestPlanReference>
       </TestPlans>
