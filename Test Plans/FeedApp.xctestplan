@@ -9,10 +9,19 @@
     }
   ],
   "defaultOptions" : {
-
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:FeedApp.xcodeproj",
+          "identifier" : "973BA9C42BC5478900013B53",
+          "name" : "FeedApp"
+        }
+      ]
+    }
   },
   "testTargets" : [
     {
+      "parallelizable" : true,
       "target" : {
         "containerPath" : "container:FeedApp.xcodeproj",
         "identifier" : "973BA9CC2BC5478C00013B53",
