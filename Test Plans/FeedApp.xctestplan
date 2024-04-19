@@ -4,7 +4,14 @@
       "id" : "2C23496B-F89F-4DCB-9B39-09E7B7FBF813",
       "name" : "Configuration 1",
       "options" : {
-
+        "guardMallocEnabled" : false,
+        "mallocGuardEdgesEnabled" : false,
+        "mallocScribbleEnabled" : false,
+        "mallocStackLoggingOptions" : null,
+        "maximumTestRepetitions" : 50,
+        "testExecutionOrdering" : "alphabetical",
+        "testRepetitionMode" : "untilFailure",
+        "threadSanitizerEnabled" : false
       }
     }
   ],
@@ -17,7 +24,15 @@
           "name" : "FeedApp"
         }
       ]
-    }
+    },
+    "guardMallocEnabled" : true,
+    "mallocGuardEdgesEnabled" : true,
+    "mallocScribbleEnabled" : true,
+    "mallocStackLoggingOptions" : {
+      "loggingType" : "allAllocations"
+    },
+    "nsZombieEnabled" : true,
+    "threadSanitizerEnabled" : true
   },
   "testTargets" : [
     {
