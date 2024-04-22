@@ -99,11 +99,18 @@
 		97192B892BD69E6800AE5E69 /* Feed API */ = {
 			isa = PBXGroup;
 			children = (
-				97E3BD272BCE9E76005D8B4E /* XCTCase+MemoryTrackerHelper.swift */,
 				973BA9D22BC5478C00013B53 /* LoadFeedFromRemoteUseCaseTests.swift */,
 				97E3BD252BCDB734005D8B4E /* URLSessionHTTPClientTests.swift */,
 			);
 			path = "Feed API";
+			sourceTree = "<group>";
+		};
+		97192B8C2BD6A34200AE5E69 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				97E3BD272BCE9E76005D8B4E /* XCTCase+MemoryTrackerHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		973BA9BB2BC5478900013B53 = {
@@ -140,6 +147,7 @@
 		973BA9D12BC5478C00013B53 /* FeedAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				97192B8C2BD6A34200AE5E69 /* Helpers */,
 				97192B882BD69E2D00AE5E69 /* Feed Cache */,
 				97192B892BD69E6800AE5E69 /* Feed API */,
 			);
