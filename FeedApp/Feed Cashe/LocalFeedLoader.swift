@@ -39,7 +39,7 @@ public final class LocalFeedLoader {
     public func load(completion: @escaping (LoadResult) -> Void) {
         store.retrieve { [weak self] result in
             guard let self else { return }
-            
+
             switch result {
             case let .failure(error):
                 completion(.failure(error))
@@ -58,8 +58,13 @@ public final class LocalFeedLoader {
     }
 
     public func validateCache() {
-        store.retrieve(completion: { _ in })
-        store.deleteCachedFeed(completion: { _ in })
+        store.retrieve { [unowned self] result in
+            switch result {
+            case .failure:
+                self.store.deleteCachedFeed { _ in }
+            default: break
+            }
+        }
     }
 
     private func validate(_ timestamp: Date) -> Bool {
