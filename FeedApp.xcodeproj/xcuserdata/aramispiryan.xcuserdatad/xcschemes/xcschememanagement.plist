@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>FeedAppCacheIntegrationTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>FeedAppEndToEndTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -28,6 +33,11 @@
 			<true/>
 		</dict>
 		<key>973BA9CC2BC5478C00013B53</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>97AAE3B22BE535030073BD75</key>
 		<dict>
 			<key>primary</key>
 			<true/>
