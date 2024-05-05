@@ -81,6 +81,9 @@ final class FeedAppCacheIntegrationTests: XCTestCase {
 
             case let .failure(error):
                 XCTFail("Expected successful feed result, got \(error) instead", file: file, line: line)
+           
+            @unknown default:
+                fatalError()
             }
 
             exp.fulfill()
