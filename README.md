@@ -1,8 +1,8 @@
 # FeedApp
 The Feed Application
 
-[![CI-macOS](https://github.com/ispiryan/FeedApp/actions/workflows/CI-macOS.yml/badge.svg)](https://github.com/ispiryan/FeedApp/actions/workflows/CI-macOS.yml)
-[![CI-iOS](https://github.com/ispiryan/FeedApp/actions/workflows/CI-iOS.yml/badge.svg)](https://github.com/ispiryan/FeedApp/actions/workflows/CI-iOS.yml)
+[![macOS](https://github.com/ispiryan/FeedApp/actions/workflows/CI-macOS.yml/badge.svg)](https://github.com/ispiryan/FeedApp/actions/workflows/CI-macOS.yml)
+[![iOS](https://github.com/ispiryan/FeedApp/actions/workflows/CI-iOS.yml/badge.svg)](https://github.com/ispiryan/FeedApp/actions/workflows/CI-iOS.yml)
 
 
 ## BDD Specs
