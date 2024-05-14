@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "FeedImageCell.renderedImage.getter:FeedViewControllerTests.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "feedImageView.image">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in FeedViewController.tableView(_:cellForRowAt:):FeedViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell?.feedImageView.image">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
