@@ -7,7 +7,6 @@
 
 import XCTest
 import FeedApp
-import FeedAppTests
 import FeedAppiOS
 
 final class FeedViewControllerTests: XCTestCase {
