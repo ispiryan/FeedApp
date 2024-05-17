@@ -5,12 +5,12 @@
 //  Created by Aram Ispiryan on 16.05.24.
 //
 
-import Foundation
 import FeedApp
 
 final class FeedViewModel {
-    private let feedLoader: FeedLoader
     typealias Observer<T> = (T) -> Void
+
+    private let feedLoader: FeedLoader
 
     init(feedLoader: FeedLoader) {
         self.feedLoader = feedLoader
