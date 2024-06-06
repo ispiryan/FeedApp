@@ -8,17 +8,12 @@
 import UIKit
 
 public final class FeedViewController: UITableViewController, UITableViewDataSourcePrefetching {
-    private var refreshController: FeedRefreshViewController?
+    var refreshController: FeedRefreshViewController?
     var tableModel = [FeedImageCellController]() {
         didSet { tableView.reloadData() }
     }
     private var isViewIsAppeared = false
     private var cellControllers = [IndexPath: FeedImageCellController]()
-
-    convenience init(refreshController: FeedRefreshViewController) {
-        self.init()
-        self.refreshController = refreshController
-    }
 
     public override func viewIsAppearing(_ animated: Bool) {
         super.viewIsAppearing(animated)
