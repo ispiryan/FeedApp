@@ -34,7 +34,7 @@ extension FeedImageCell {
         return descriptionLabel.text
     }
 
-    var renderedImage: UIImage? {
-        return feedImageView.image
+    var renderedImage: Data? {
+        return feedImageView.image?.pngData()
     }
 }
