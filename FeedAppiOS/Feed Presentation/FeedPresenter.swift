@@ -5,10 +5,12 @@
 //  Created by Aram Ispiryan on 17.05.24.
 //
 
+import Foundation
 import FeedApp
 
 protocol FeedLoadingView {
     func display(_ viewModel: FeedLoadingViewModel)
+    
 }
 
 protocol FeedView {
@@ -22,6 +24,13 @@ final class FeedPresenter {
     init(feedView: FeedView, loadingView: FeedLoadingView) {
         self.feedView = feedView
         self.loadingView = loadingView
+    }
+    
+    static var title: String {
+        return NSLocalizedString("FEED_VIEW_TITLE",
+            tableName: "Feed",
+            bundle: Bundle(for: FeedPresenter.self),
+            comment: "Title for the feed view")
     }
 
     func didStartLoadingFeed() {
