@@ -10,7 +10,6 @@ import FeedApp
 
 protocol FeedLoadingView {
     func display(_ viewModel: FeedLoadingViewModel)
-    
 }
 
 protocol FeedView {
