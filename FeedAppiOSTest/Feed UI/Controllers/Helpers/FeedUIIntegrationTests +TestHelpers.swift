@@ -64,10 +64,6 @@ extension FeedViewController {
     func simulateUserInitiatedFeedReload() {
         refreshControl?.simulatePullToRefresh()
     }
-    
-    var errorMessage: String? {
-        return errorView?.message
-    }
 
     var isShowingLoadingIndicator: Bool {
         return refreshControl?.isRefreshing == true

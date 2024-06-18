@@ -14,14 +14,14 @@ protocol FeedViewControllerDelegate {
 public final class FeedViewController: UITableViewController, UITableViewDataSourcePrefetching, FeedLoadingView, FeedErrorView {
     var delegate: FeedViewControllerDelegate?
     @IBOutlet private(set) public var errorView: ErrorView?
-    
+
     var tableModel = [FeedImageCellController]() {
         didSet { tableView.reloadData() }
     }
 
     public override func viewDidLoad() {
         super.viewDidLoad()
- 
+        
         refresh()
     }
     
@@ -40,7 +40,7 @@ public final class FeedViewController: UITableViewController, UITableViewDataSou
     func display(_ viewModel: FeedErrorViewModel) {
         errorView?.message = viewModel.message
     }
-    
+
     public override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return tableModel.count
     }
